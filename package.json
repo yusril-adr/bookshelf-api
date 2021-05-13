@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node ./src/server.js",
     "start-dev": "nodemon ./src/server.js",
-    "lint": "eslint ./"
+    "lint": "eslint ./",
+    "graph": "git log --all --oneline --text --decorate --graph"
   },
   "repository": {
     "type": "git",
